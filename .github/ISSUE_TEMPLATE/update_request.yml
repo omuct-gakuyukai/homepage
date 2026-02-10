@@ -1,0 +1,43 @@
+name: 更新依頼
+description: 学友会公式HPの更新・修正依頼フォーム
+title: "[Req]: "
+labels: ["update-request"]
+assignees:
+  - kleha-tc
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 学友会公式HP更新依頼フォーム
+        以下の項目を埋めてIssueを作成してください
+  - type: dropdown
+    id: division
+    attributes:
+      label: 所属
+      description: 入力者(依頼者)の所属を選択してください
+      options:
+        - 執行委員会 総務課 食品バザー係
+        - 執行委員会 総務課 展示電気係
+        - 執行委員会 備品課
+        - 執行委員会 音響課
+        - 執行委員会 広報課
+        - 執行委員会 工務課
+        - 執行委員会 渉外課
+        - 執行委員会 情報通信課
+        - 執行委員会 (上記以外)
+        - 書記局
+        - 評議会
+  - type: textarea
+    id: address
+    attributes:
+      label: 該当ページ
+      description: 更新してほしいページのアドレス
+      placeholder: https://omuct-gakuyukai.com/
+  - type: textarea
+    id: content
+    attributes:
+      label: 依頼内容
+      description: 具体的な更新内容
+      placeholder: |
+        ○○の書類を添付のものに差し替えてほしい
+        (注: ファイル添付は下端のボタンまたはこのフィールドへのドラッグ&ドロップで可能です)
