@@ -1,0 +1,58 @@
+name: 部局情報登録
+description: 学友会公式HPに記載する各部局の情報登録フォーム
+title: "[add-exp]: "
+labels: ["add-expression"]
+assignees:
+  - kleha-tc
+body:
+  - type: markdown
+    attributes:	
+      value: |
+        ## 学友会公式HP部局紹介登録フォーム
+        以下の項目を埋めてIssueを作成してください
+  - type: dropdown
+    id: division
+    attributes:
+      label: 該当部局
+      description: 入力対象の部局を選択してください
+      options:
+        - 執行委員会 総務課 食品バザー係
+        - 執行委員会 総務課 展示電気係
+        - 執行委員会 備品課
+        - 執行委員会 音響課
+        - 執行委員会 広報課
+        - 執行委員会 工務課
+        - 執行委員会 渉外課
+        - 執行委員会 情報通信課
+        - 執行委員会
+        - 書記局
+        - 評議会
+  - type: textarea
+    id: works
+    attributes:
+      label: 担当業務
+      description: 該当部局の担当業務を箇条書きで記載してください
+      placeholder: |
+        * 学友会ネットワークの保守管理
+	* 学友会公式HPの制作運用
+  - type: textarea
+    id: description
+    attributes:
+      label: 部局紹介
+      description: 該当部局の紹介文を記載してください
+  - type: input
+    id: people
+    attributes:
+      label: 人数
+      description: 該当部局の2026年4月1日現在の人数を記載してください
+  - type: textarea
+    id: message
+    attributes:
+      label: メッセージ
+      description: 一般学生 (または入部希望の学生) に向けたメッセージを記載してください
+  - type: textarea
+    id: picture
+    attributes:
+      label: 画像等
+      description: 該当部局を象徴する画像等を1枚以上添付してください
+    
