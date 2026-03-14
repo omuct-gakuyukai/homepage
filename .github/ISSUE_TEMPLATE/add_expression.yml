@@ -6,7 +6,7 @@ assignees:
   - kleha-tc
 body:
   - type: markdown
-    attributes:	
+    attributes:
       value: |
         ## 学友会公式HP部局紹介登録フォーム
         以下の項目を埋めてIssueを作成してください
@@ -34,7 +34,7 @@ body:
       description: 該当部局の担当業務を箇条書きで記載してください
       placeholder: |
         * 学友会ネットワークの保守管理
-	* 学友会公式HPの制作運用
+        * 学友会公式HPの制作運用
   - type: textarea
     id: description
     attributes:
